@@ -1,0 +1,4 @@
+baseURL = "http://ohyeahthisisgreat.org/"
+languageCode = "en-us"
+title = "Test, oh yes, we test."
+theme = "nofancy"
