@@ -1,0 +1,58 @@
+## Basic Configuration
+
+baseurl = "http://sohandhisstufftech.com" 
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Soh"
+title = "Soh's Resume"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+## disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = ""
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Soh"
+intro = "Linux Lover, Customer Advocate and Support Technician"
+description = "If you came here looking for my resume, you found it."
+authorimage = "headshot.jpg"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "resume"
+
+## Main Menu
+[[menu.main]]
+    name = "It's right here"
+    weight = 100
+    identifier = "Resume"
+    url = "soh-resume.pdf"
+
+## Social Accounts
+[params.social]
+github = "sohsoh5"
+instagram = "sohsoh5"
+## xing = "<username>"
+## linkedin = "sokhumpheak-thong-63ab5618/"
+twitter = "feelingsohsoh"
+## facebook = "<username>"
+## google = "<username>"
+## stackoverflow = "<username>"
+email = "sokhum@live.com"
+
+## Extras
+[params.extra]
+copyright = ""
+poweredby = true
+highlightjs = true
